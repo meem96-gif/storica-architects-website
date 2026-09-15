@@ -1,7 +1,7 @@
 :root {
   --cream: #fdf3e7;
   --peach: #f8e4cd;
-  --orange: #f0782e;
+  --orange: #e46d23;
   --ink: #1f2733;
   --ink-soft: #6b7280;
   --white: #ffffff;
@@ -35,8 +35,8 @@ img { max-width: 100%; display: block; }
 
 .btn {
   display: inline-block;
-  background: var(--orange);
-  color: #fff;
+  background-color: var(--orange) !important;
+  color: #fff !important;
   padding: 13px 30px;
   border-radius: 6px;
   font-weight: 500;
@@ -53,9 +53,11 @@ header {
   padding: 22px 0;
   position: relative;
 }
+
+
 nav.wrap {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: space-between;
   position: relative;
 }
@@ -65,6 +67,13 @@ nav.wrap {
   font-size: 22px;
   letter-spacing: .2px;
 }
+
+.nav-items{
+
+list-style: none;
+
+}
+
 .nav-links {
   display: flex;
   gap: 38px;
@@ -186,8 +195,19 @@ nav.wrap {
   text-align: center;
   line-height: 1.1;
 }
-.badge strong { display: block; font-size: 22px; font-family: 'Playfair Display', serif; }
+.badge strong { display: block; font-size: 22px; font-family: 'Playfair Display', serif; 
+}
 .badge span { font-size: 12px; opacity: .9; }
+
+.badge {
+  background-color: var(--orange) !important;
+  color: #fff !important;
+}
+.badge strong,
+.badge span {
+  color: #fff !important;
+  background-color: transparent !important;
+}
 
 /* FACTS */
 .facts { padding: 90px 0; text-align: center; }
@@ -226,10 +246,11 @@ nav.wrap {
 /* FOOTER */
 footer {
   background: var(--peach);
+  background-color: var(--peach) !important;
   padding: 20px 0;
   text-align: center;
   font-size: 13px;
-  color: var(--ink-soft);
+   color: var(--ink-soft) !important;
 }
 
 /* ============ RESPONSIVE ============ */
