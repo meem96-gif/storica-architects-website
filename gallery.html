@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Storica Architects</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="shortcut icon" href="images/Untitled design (3).png" type="image/x-icon">
+<style>
+  .page-header { background: var(--cream); padding: 60px 0 40px; text-align: center; }
+  .page-header h1 { font-size: 34px; margin-bottom: 10px; }
+  .page-header p { color: var(--ink-soft); font-size: 14.5px; max-width: 480px; margin: 0 auto; }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 50px 0 70px;
+  }
+  .gallery-grid img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+  @media (min-width: 768px) {
+    .gallery-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (min-width: 1025px) {
+    .gallery-grid { grid-template-columns: repeat(3, 1fr); }
+    .gallery-grid img { height: 220px; }
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <nav class="wrap">
+      <div class="logo">Storica Architects</div>
+      <ul class="nav-links">
+        <li class="nav-items"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-items"><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li class="nav-items"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-items"><a href="contact.html" class="nav-link">Contact Us</a></li>
+      </ul>
+      <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <div class="wrap">
+      <h1>Our Gallery</h1>
+      <p>A look at recent projects — from residential facades to interior finishes, shot on-site as each build came together.</p>
+    </div>
+  </section>
+
+  <section class="wrap gallery-grid">
+    <img src="images/486635810_1103201011824294_1071564273077259065_n.jpg" alt="Storica Architects project — facade">
+    <img src="images/120081185_122994676213870_6121903983900589121_n.jpg" alt="Storica Architects project — exterior">
+    <img src="images/468080724_1082215016958493_6610459341811130633_n.jpg" alt="Storica Architects project — interior">
+    <img src="images/469229002_1090039562842705_2044229005658719227_n.jpg" alt="Storica Architects project — detail">
+    <img src="images/471404561_1105847131261948_3059984047574565428_n.jpg" alt="Storica Architects project — night view">
+    <img src="images/486635810_1103201011824294_1071564273077259065_n.jpg" alt="Storica Architects project — balcony">
+    <img src="images/120081185_122994676213870_6121903983900589121_n.jpg" alt="Storica Architects">
+    <img src="images/120884274_131618248684846_3586617467794950218_n.jpg" alt="Storica Architects">
+    <img src="images/468060349_1082215026958492_3640108334619376377_n.jpg" alt="Storica Architects">
+    <img src="images/468080724_1082215016958493_6610459341811130633_n.jpg" alt="Storica Architects">
+    <img src="images/468225534_1082215333625128_8284037781125034417_n.jpg" alt="Storica Architects">
+    <img src="images/469122362_1090039512842710_2557948734253838592_n.jpg" alt="Storica Architects">
+    <img src="images/469122444_1090039486176046_5395472348012667930_n.jpg" alt="Storica Architects">
+    <img src="images/469158062_1090039499509378_6717103227631608885_n.jpg" alt="Storica Architects">
+    <img src="images/469158321_1090039456176049_1818669627484168100_n.jpg" alt="Storica Architects">
+    <img src="images/469182932_1090038859509442_943364910226064827_n.jpg" alt="Storica Architects">
+    <img src="images/469183806_1090039449509383_2226464027525144168_n.jpg" alt="Storica Architects project — conference room">
+<img src="images/469191553_1090039419509386_8465869360234814563_n.jpg" alt="Storica Architects project — executive office">
+<img src="images/469192977_1090039009509427_7270575590947354016_n.jpg" alt="Storica Architects project — office interior">
+<img src="images/469194280_1090039502842711_5075668865141784303_n.jpg" alt="Storica Architects project — office with signage">
+<img src="images/469200368_1090039509509377_2456520550616316867_n.jpg" alt="Storica Architects project — office shelving">
+<img src="images/469211219_1090039469509381_7260885040800762788_n.jpg" alt="Storica Architects project — apartment building">
+<img src="images/469218012_1090038746176120_4735167268898545915_n.jpg" alt="Storica Architects project — hotel facade">
+<img src="images/469220861_1090038606176134_5272831262732358696_n.jpg" alt="Storica Architects project — residential building">
+<img src="images/469229002_1090039466176048_8850684902492096019_n.jpg" alt="Storica Architects project — bedroom interior">
+<img src="images/469229002_1090039562842705_2044229005658719227_n.jpg" alt="Storica Architects project — office workspace">
+<img src="images/469231049_1090039472842714_871690458787883869_n.jpg" alt="Storica Architects project — living room">
+<img src="images/469248542_1090039539509374_7611035335603769239_n.jpg" alt="Storica Architects project — master bedroom">
+<img src="images/469249993_1090039026176092_8045795819225822831_n.jpg" alt="Storica Architects project — bedroom suite">
+<img src="images/469250041_1090038846176110_2204074280957286050_n.jpg" alt="Storica Architects project — conference hall">
+<img src="images/469250439_1090038832842778_1631064708623695693_n.jpg" alt="Storica Architects project — courtyard entrance">
+<img src="images/469278445_1090039412842720_2849266602645412722_n.jpg" alt="Storica Architects project — boardroom">
+<img src="images/469278785_1090038946176100_6473381887784291255_n.jpg" alt="Storica Architects project — floor plan">
+<img src="images/469316462_1090039012842760_4192143183850888333_n.jpg" alt="Storica Architects project — home office">
+<img src="images/469323035_1090039039509424_4071987970204433473_n.jpg" alt="Storica Architects project — apartment facade">
+<img src="images/469323369_1090039492842712_1193553355315274940_n.jpg" alt="Storica Architects project — meeting room">
+<img src="images/469330120_1090039382842723_4371164269591775046_n.jpg" alt="Storica Architects project — conference room">
+<img src="images/469344783_1090039426176052_3089532713637762447_n.jpg" alt="Storica Architects project — living room">
+<img src="images/469344912_1090039032842758_5464701566054764671_n.jpg" alt="Storica Architects project — living room detail">
+<img src="images/469345566_1090038679509460_2798474147294039677_n.jpg" alt="Storica Architects project — hotel building">
+<img src="images/469357706_1090039442842717_6664831848587346956_n.jpg" alt="Storica Architects project — apartment facade">
+<img src="images/469358628_1090039416176053_7828867721496750523_n.jpg" alt="Storica Architects project — bedroom wardrobe">
+<img src="images/469369082_1090039036176091_7054541220576193310_n.jpg" alt="Storica Architects project — bedroom">
+<img src="images/469382377_1090039459509382_2076047713402420548_n.jpg" alt="Storica Architects project — apartment building">
+<img src="images/469382834_1090038782842783_4123779310017204276_n.jpg" alt="Storica Architects project — living space">
+<img src="images/469406565_1090038839509444_6686148899850788601_n.jpg" alt="Storica Architects project — dressing room">
+<img src="images/469408265_1090039482842713_7737562190846198878_n.jpg" alt="Storica Architects project — office space">
+<img src="images/469486057_1090039389509389_7650894336144241224_n.jpg" alt="Storica Architects project — apartment building">
+<img src="images/471404561_1105847131261948_3059984047574565428_n.jpg" alt="Storica Architects project — living dining area">
+<img src="images/471417772_1105847247928603_4423225401144317683_n.jpg" alt="Storica Architects project — bedroom lounge">
+<img src="images/471418331_1105847321261929_784187422373944795_n.jpg" alt="Storica Architects project — conference room">
+<img src="images/471419263_1105847181261943_76887261038129099_n.jpg" alt="Storica Architects project — apartment facade">
+<img src="images/471450284_1105847297928598_1112319655140128523_n.jpg" alt="Storica Architects project — entry wall design">
+<img src="images/471488281_1105847274595267_3463365987074784003_n.jpg" alt="Storica Architects project — cafe interior">
+<img src="images/471644595_1105847167928611_2243068599791094629_n.jpg" alt="Storica Architects project — office workstation">
+<img src="images/471644595_1105847167928611_2243068599791094629_n.jpg" alt="Storica Architects project — coffee shop interior">
+<img src="images/471661381_1105846417928686_1710631940762733220_n.jpg" alt="Storica Architects project — office interior">
+<img src="images/471724617_1105847134595281_3077998660717382035_n.jpg" alt="Storica Architects project — cafe interior">
+<img src="images/471818150_1105847234595271_2307014744427467538_n.jpg" alt="Storica Architects project — construction progress">
+<img src="images/485722105_1097780449033017_6201312900862377671_n.jpg" alt="Storica Architects project — house exterior">
+<img src="images/486388233_1103201268490935_337752215717254739_n.jpg" alt="Storica Architects project — living room">
+<img src="images/486533953_1103200998490962_8822839861930671659_n.jpg" alt="Storica Architects project — apartment tower">
+<img src="images/486635810_1103201011824294_1071564273077259065_n.jpg" alt="Storica Architects project — residential facade">
+<img src="images/486666514_1103201108490951_2591709892136863513_n.jpg" alt="Storica Architects project — office desk">
+<img src="images/486777270_1103200988490963_5112758402383460375_n.jpg" alt="Storica Architects project — apartment building">
+<img src="images/488491623_4101822293436861_1361800704861526351_n.jpg" alt="Storica Architects project — hospital building">
+<img src="images/499028558_1149851010492627_1145005783844448013_n.jpg" alt="Storica Architects project — mosque exterior">
+<img src="images/499098463_1149850907159304_909638395679314626_n.jpg" alt="Storica Architects project — mosque exterior night">
+<img src="images/499238434_1148544330623295_2067101397669877460_n.jpg" alt="Storica Architects project — apartment building">
+<img src="images/499360144_1148544277289967_8444108506108923885_n.jpg" alt="Storica Architects project — apartment facade detail">
+<img src="images/499598707_1148544427289952_4000597804705206859_n.jpg" alt="Storica Architects project — apartment building aerial">
+<img src="images/499614138_1151375223673539_3347250902800552894_n.jpg" alt="Storica Architects project — living room interior">
+<img src="images/499727171_1151375513673510_2385455208802286274_n.jpg" alt="Storica Architects project — lounge interior">
+<img src="images/499768139_1148544383956623_2492083284008698551_n.jpg" alt="Storica Architects project — apartment building facade">
+<img src="images/499786377_1149850857159309_4732178328719628984_n.jpg" alt="Storica Architects project — mosque entrance">
+<img src="images/499944196_1149850953825966_7401787160050885574_n.jpg" alt="Storica Architects project — mosque facade">
+  </section>
+
+  <footer>
+    All rights reserved copyright &copy; Storica Architects, coding page design
+  </footer>
+
+</body>
+</html>
