@@ -77,6 +77,7 @@ nav.wrap {
   font-size: 15px;
   font-weight: 500;
   display: none;
+  z-index: 100;
 }
 .nav-links.open { display: flex; }
 .nav-items { list-style: none; }
@@ -277,4 +278,9 @@ footer {
 .sponsors * {
   background-color: #000000 !important;
   color: #c0c0c0 !important;
+}
+
+.nav-links.open {
+  background-color: #000000 !important;
+  box-shadow: 0 10px 20px rgba(0,0,0,.5);
 }
