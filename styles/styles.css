@@ -206,23 +206,25 @@ footer {
   .quick-imgs img { height: 150px; }
   .love-visual img { height: 340px; }
   .facts-grid { grid-template-columns: repeat(2, 1fr); }
-}
 
-@media (min-width: 1025px) {
   .nav-links {
     position: static;
     display: flex !important;
-    flex-direction: row;
+    flex-direction: row !important;
     align-items: center;
     background: none;
     padding: 0;
-    gap: 34px;
+    gap: 26px;
   }
   .menu-toggle { display: none; }
+}
 
+@media (min-width: 1025px) {
   .quick .wrap,
   .love .wrap { grid-template-columns: 1fr 1fr; }
   .facts-grid { grid-template-columns: repeat(4, 1fr); }
+
+  .nav-links { gap: 34px; }
 
   .logo { font-size: 22px; }
   .hero h1 { font-size: 44px; }
